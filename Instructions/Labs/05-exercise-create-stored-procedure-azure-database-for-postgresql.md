@@ -30,6 +30,8 @@ You also need a saved connection to any PostgreSQL database.
 
 1. Select the **PostgreSQL** icon in the left menu.
 
+1. If no server group is available under **Connections**, select **Add Connection**. On the **Create Server Group** page, enter **mslearn-postgresql-lab** in **Name**, leave **Description** empty, and select **Create**. If the server group already exists, reuse it.
+
 1. Connect to a PostgreSQL server and database.
 
 1. Select **File**, **Open File**, navigate to **Allfiles/Labs/05**, and open **Lab5_SimpleFunctions.sql**.
