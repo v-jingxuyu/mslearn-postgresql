@@ -36,6 +36,12 @@ You also need a saved connection to any PostgreSQL database.
 
 1. On the lower right of Visual Studio Code, make sure the query editor shows an active PostgreSQL connection.
 
+## Run a DROP statement
+
+Select the DROP statement and run it.
+
+Confirm that the statement completes without an error. A notice that the table doesn't exist is expected.
+
 ## Run a SQL statement
 
 The script contains several independent statements. Run only the statement that confirms which database the editor is connected to.
@@ -52,4 +58,4 @@ Confirm that the **transformed_marker** column contains:
 LAB-RUNNER-PROBE
 ```
 
-Do not run the entire file and do not edit the SQL. You have completed the exercise when both requested statements return the expected results and no unrelated statement has been run.
+Do not run the entire file and do not edit the SQL. You have completed the exercise when all three requested statements return the expected results and no unrelated statement has been run.
